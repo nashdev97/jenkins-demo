@@ -17,10 +17,20 @@ pipeline {
             }
         }
 
-        stage('Deploy') {
+        stage('Deploy'){
+    steps {
+        bat '''
+            echo Deploying the application...
+            docker stop myapp || echo "Container not running"
+            docker rm myapp || echo "Container not found"
+            docker run -d --name myapp -p 5000:5000 myapp
+        '''
+    }
+    }
+        stage('Cleanup') {
             steps {
-                echo 'Deploying the application...'
-                bat 'docker run -d -p 5000:5000 myapp'
+                echo 'Cleaning up...'
+                bat 'docker rmi myapp'
             }
         }
     }
