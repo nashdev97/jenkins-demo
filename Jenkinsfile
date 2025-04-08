@@ -28,10 +28,14 @@ pipeline {
     }
     }
         stage('Cleanup') {
-            steps {
-                echo 'Cleaning up...'
-                bat 'docker rmi myapp'
-            }
+    steps {
+        echo 'Cleaning up...'
+        bat '''
+            docker stop myapp || echo "Container not running"
+            docker rm myapp || echo "Container not found"
+            docker rmi myapp --force || echo "Image not removed"
+        '''
+    }
         }
     }
 }
