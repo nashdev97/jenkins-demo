@@ -108,5 +108,5 @@ Here are some screenshots demonstrating the application and CI/CD pipeline:
  ![screenshots](screenshots/image-2.png)
  ![screenshots](screenshots/image-3.png)
  ![screenshots](screenshots/image-4.png)
- ![screenshots](screenshots/image-5.png)
+ ![screenshots] (screenshots/image-5.png)
  ![screenshots](screenshots/image-6.png)
