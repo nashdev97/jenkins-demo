@@ -92,6 +92,14 @@ pipeline {
     }
 }
 
+
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page if you want to contribute.
+
+
 📸 Screenshots
 Here are some screenshots demonstrating the application and CI/CD pipeline:
 
@@ -102,10 +110,3 @@ Here are some screenshots demonstrating the application and CI/CD pipeline:
 ![alt text](image-4.png)
 ![alt text](image-5.png)
 ![alt text](image-6.png)
-
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to check the issues page if you want to contribute.
-
