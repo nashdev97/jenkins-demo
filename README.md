@@ -69,31 +69,6 @@ bat 'echo Building the application...'
 
 You're likely running Jenkins on Windows and using Unix shell commands (sh). Fix it by replacing sh with bat or by installing Git Bash and configuring it as the default shell.
 
-📦 Example Jenkinsfile
-pipeline {
-    agent any
-
-    stages {
-        stage('Build') {
-            steps {
-                bat 'echo Building the application...'
-            }
-        }
-        stage('Test') {
-            steps {
-                bat 'echo Running tests...'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                bat 'echo Deploying application...'
-            }
-        }
-    }
-}
-
-
-
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -103,9 +78,6 @@ Feel free to check the issues page if you want to contribute.
 📸 Screenshots
 Here are some screenshots demonstrating the application and CI/CD pipeline:
 
-<br>
-<img src='./screenshots/image.png'>
-<br>
 <br>
 <img src='./screenshots/image-1.png'>
 <br>
@@ -123,4 +95,7 @@ Here are some screenshots demonstrating the application and CI/CD pipeline:
 <br>
 <br>
 <img src='./screenshots/image-6.png'>
+<br>
+<br>
+<img src='./screenshots/image.png'>
 <br>
