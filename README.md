@@ -79,7 +79,7 @@ Feel free to check the issues page if you want to contribute.
 Here are some screenshots demonstrating the application and CI/CD pipeline:
 
 <br>
-<img src='./screenshots/image-1.png'>
+<img src='./image-1.png'>
 <br>
 <br>
 <img src='./screenshots/image-2.png'>
