@@ -79,23 +79,23 @@ Feel free to check the issues page if you want to contribute.
 Here are some screenshots demonstrating the application and CI/CD pipeline:
 
 <br>
-<img src='./image-1.png'>
+<img src='./screenshots/Screenshot 2025-04-08 215126.png'>
 <br>
 <br>
-<img src='./screenshots/image-2.png'>
+<img src='./screenshots/Screenshot 2025-04-08 215237.png'>
 <br>
 <br>
-<img src='./screenshots/image-3.png'>
+<img src='./screenshots/Screenshot 2025-04-08 215317.png'>
 <br>
 <br>
-<img src='./screenshots/image-4.png'>
+<img src='./screenshots/Screenshot 2025-04-08 215348.png'>
 <br>
 <br>
-<img src='./screenshots/image-5.png'>
+<img src='./screenshots/Screenshot 2025-04-08 215450.png'>
 <br>
 <br>
-<img src='./screenshots/image-6.png'>
+<img src='./screenshots/Screenshot 2025-04-08 215524.png'>
 <br>
 <br>
-<img src='./screenshots/image.png'>
+<img src='.screenshots/Screenshot 2025-04-08 215633.png'>
 <br>
