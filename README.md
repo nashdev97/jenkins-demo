@@ -103,7 +103,7 @@ Feel free to check the issues page if you want to contribute.
 📸 Screenshots
 Here are some screenshots demonstrating the application and CI/CD pipeline:
 
- <br>
+<br>
 <img src='./screenshots/image.png'>
 <br>
 <br>
